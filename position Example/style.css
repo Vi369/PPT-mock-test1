@@ -1,0 +1,48 @@
+*{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 0.9rem;
+}
+
+
+body{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #808080;
+    border: 2px solid black;
+}
+.static{
+    background-color: #fff;
+}
+.relative{
+    position: relative;
+    top: 40px;
+    left: 200px;
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+}
+.absolute{
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    width: 200px;
+    height: 200px;
+    background-color: #a94040;
+}
+.fixed{
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    background-color: #ea94ea;
+    height: 200px;
+    width: 200px;
+}
+.sticky{
+    position: sticky;
+    top:0;
+    background-color: #e9d14d;
+    height: 200px;
+    width: 200px;
+}
